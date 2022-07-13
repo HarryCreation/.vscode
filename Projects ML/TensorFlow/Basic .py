@@ -6,5 +6,3 @@ df = pd.read_csv("F:\\Data_Projects\\wine-reviews.csv", usecols=['country', 'des
 
 plt.hist(df.points, bins= 20)
 plt.show()
-
-# print(df.head())
