@@ -1,5 +1,6 @@
 from pyexpat import model
 import pandas as pd
+import seaborn as sp
 import matplotlib.pyplot as plt
 from sklearn.linear_model import model
 from sklearn.linear_model import LogisticRegression
