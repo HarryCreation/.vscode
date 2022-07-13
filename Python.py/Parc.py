@@ -1,0 +1,15 @@
+from sre_constants import SUCCESS
+import cv2
+
+
+video = cv2.VideoCapture(0)
+
+
+while True:
+    img = video.read()
+    cv2.imshow("Video", img)
+    if cv2.waitKey(1) == ord('q'):
+        break
+
+video.release()
+cv2.destroyAllWindows()
