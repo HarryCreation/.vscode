@@ -1,7 +1,7 @@
+from pyexpat import model
 import pandas as pd
-import seaborn as sp
 import matplotlib.pyplot as plt
-from sklearn import linear_model
+from sklearn.linear_model import model
 from sklearn.linear_model import LogisticRegression
 
 Var1 = pd.read_csv("C:\\Users\\hvwag\\OneDrive\Desktop\\HaxCreation.csv")
